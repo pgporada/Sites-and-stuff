@@ -1,0 +1,15 @@
+#left {
+    position: absolute;
+    /* margin:5px; */
+    height:542px;
+    width:547px;
+    z-index:1;
+}
+
+#right {
+    float:right;
+    /* margin:5px; */
+    height:527px;
+    width:463px;
+    z-index:2;
+}

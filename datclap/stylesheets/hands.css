@@ -1,0 +1,50 @@
+
+
+body {
+	margin:0; 
+	padding:0;
+	overflow:hidden;
+}
+
+#wrapper {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+/* min-width is what is keeping the hands from overlapping. This allows the wrapper div to not be any smaller
+than 925px, which is the width of the two hands touching */
+	min-width:925px;
+	background-color:red;
+}
+
+#handsy  {
+	background-image: url('../images/hand1.png');
+	background-repeat: no-repeat;
+	height:527px;
+	width:540px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
+
+#right {
+	background-image: url('../images/hand2.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	min-width:540px;
+	height:527px;
+    z-index:2;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+
+#version {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+
